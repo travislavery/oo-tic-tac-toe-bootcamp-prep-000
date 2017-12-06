@@ -124,7 +124,7 @@ class TicTacToe
     end
   end
   
-  def play(board)
+  def play
     while !(over?)
       turn
       won?
